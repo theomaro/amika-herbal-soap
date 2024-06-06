@@ -19,11 +19,5 @@ body {
 }
 
 main {
-  @apply max-w-3xl mx-auto;
   margin-block: 5%;
-}
-
-.card {
-  /* transition: 200ms; */
-  @apply bg-white shadow-md;
 }
