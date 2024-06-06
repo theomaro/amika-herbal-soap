@@ -21,3 +21,21 @@ body {
 main {
   margin-block: 5%;
 }
+
+.card__footer::before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 40px;
+  width: calc(100% - 40px);
+  height: 3px;
+  background: #115dd8;
+  background: linear-gradient(
+    to right,
+    #115dd8 0%,
+    #115dd8 20%,
+    #ddd 20%,
+    #ddd 100%
+  );
+}
