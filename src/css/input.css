@@ -13,13 +13,17 @@ body {
     #5d3be8,
     #1241eb
   );
-  height: 100%;
-  margin: 0;
+  @apply h-full m-0;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
 main {
-  @apply max-w-3xl;
-  margin: 5% auto;
+  @apply max-w-3xl mx-auto;
+  margin-block: 5%;
+}
+
+.card {
+  /* transition: 200ms; */
+  @apply bg-white shadow-md;
 }
