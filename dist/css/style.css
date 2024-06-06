@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Fjalla+One|Montserrat:300,400,700,800|Open+Sans:300");
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 /*
 ! tailwindcss v3.4.1 | MIT License | https://tailwindcss.com
@@ -555,12 +555,52 @@ video {
   margin-right: auto;
 }
 
+.mb-1{
+  margin-bottom: 0.25rem;
+}
+
+.mb-1\.5{
+  margin-bottom: 0.375rem;
+}
+
+.mb-6{
+  margin-bottom: 1.5rem;
+}
+
+.block{
+  display: block;
+}
+
 .flex{
   display: flex;
 }
 
+.h-auto{
+  height: auto;
+}
+
+.w-full{
+  width: 100%;
+}
+
 .max-w-3xl{
   max-width: 48rem;
+}
+
+.flex-1{
+  flex: 1 1 0%;
+}
+
+.basis-1\/2{
+  flex-basis: 50%;
+}
+
+.flex-row{
+  flex-direction: row;
+}
+
+.flex-nowrap{
+  flex-wrap: nowrap;
 }
 
 .items-center{
@@ -581,14 +621,19 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.px-10{
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-}
-
 .px-3{
   padding-left: 0.75rem;
   padding-right: 0.75rem;
+}
+
+.px-4{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.px-8{
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .py-2{
@@ -601,18 +646,44 @@ video {
   padding-bottom: 1rem;
 }
 
-.px-8{
-  padding-left: 2rem;
-  padding-right: 2rem;
+.pt-4{
+  padding-top: 1rem;
 }
 
 .text-right{
   text-align: right;
 }
 
+.font-Roboto{
+  font-family: Roboto, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-base{
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
 .text-lg{
   font-size: 1.125rem;
   line-height: 1.75rem;
+}
+
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.font-extrabold{
+  font-weight: 800;
+}
+
+.font-light{
+  font-weight: 300;
 }
 
 .font-semibold{
@@ -623,9 +694,19 @@ video {
   text-transform: uppercase;
 }
 
+.text-\[\#181e28\]{
+  --tw-text-opacity: 1;
+  color: rgb(24 30 40 / var(--tw-text-opacity));
+}
+
 .text-\[\#252525\]{
   --tw-text-opacity: 1;
   color: rgb(37 37 37 / var(--tw-text-opacity));
+}
+
+.text-\[\#555\]{
+  --tw-text-opacity: 1;
+  color: rgb(85 85 85 / var(--tw-text-opacity));
 }
 
 .text-white{

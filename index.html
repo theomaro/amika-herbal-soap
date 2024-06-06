@@ -16,12 +16,11 @@
     <link rel="stylesheet" href="./dist/css/style.css" />
   </head>
   <body>
-    <main class="max-w-3xl mx-auto">
+    <main class="max-w-3xl mx-auto font-Roboto">
       <div class="shadow-md bg-white">
+        <!-- ===== CARD HEADER ===== -->
         <div class="flex items-center justify-between py-4 px-8">
-          <div
-            class="bg-emerald-600 hover:bg-[#252525] text-white py-2 px-3"
-          >
+          <div class="bg-emerald-600 hover:bg-[#252525] text-white py-2 px-3">
             <a href="/" class="text-white"
               ><i class="ri-arrow-left-line"></i
             ></a>
@@ -31,6 +30,49 @@
           >
             New Products
           </h3>
+        </div>
+
+        <!-- ===== CARD BODY ===== -->
+        <div class="card__body flex flex-row flex-nowrap px-8 mb-6">
+          <!--  -->
+          <section class="half px-4 flex-1 basis-1/2">
+            <!--  -->
+            <article class="featured_text">
+              <h1 class="text-[#181e28] text-4xl font-extrabold">Amika</h1>
+              <p class="text=[#686e77] text-xl uppercase font-light mb-1.5">
+                Herbal soap
+              </p>
+              <p class="text-[#252525] text-xl">1,200.00/=</p>
+            </article>
+
+            <!--  -->
+            <article class="w-full pt-4">
+              <img
+                src="https://placehold.co/600x400/transparent/green"
+                alt=""
+                class="block w-full h-auto"
+              />
+            </article>
+          </section>
+
+          <!--  -->
+          <section class="half px-4 flex-1 basis-1/2">
+            <!-- DESCRIPTION -->
+            <article class="description mb-6">
+              <p class="font-light text-base text-[#555]">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+                ipsam incidunt ea doloribus iure similique delectus nam qui
+                molestiae et. At asperiores officiis aperiam enim in accusamus
+                veniam iusto accusantium!
+              </p>
+            </article>
+
+            <!-- STOCK -->
+            <article class="stock"></article>
+
+            <!-- REVIEWS -->
+            <article class="reviews"></article>
+          </section>
         </div>
       </div>
     </main>
