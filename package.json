@@ -1,0 +1,34 @@
+{
+  "name": "tailwind-typescript-starter",
+  "version": "1.0.0",
+  "description": "A user-friendly starter template to use for TypeScript and Tailwind frontend projects",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "tail-w": "npx tailwindcss -i ./src/css/input.css -o ./dist/css/style.css --watch",
+    "tsc-w": "npx tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theomaro/tailwind-typescript-starter.git"
+  },
+  "keywords": [
+    "TypeScript",
+    "Tailwind css",
+    "npm",
+    "starter template"
+  ],
+  "author": "theomaro",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/theomaro/tailwind-typescript-starter/issues"
+  },
+  "homepage": "https://github.com/theomaro/tailwind-typescript-starter#readme",
+  "dependencies": {
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "20.11.5"
+  }
+}
