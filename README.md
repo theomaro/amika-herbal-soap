@@ -1,6 +1,4 @@
-# tailwind-typescript-starter
-
-A user-friendly starter template to use for TypeScript and Tailwind frontend projects
+# Amika Herbal Shop
 
 - Install packages
 

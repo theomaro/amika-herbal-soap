@@ -1,7 +1,7 @@
 {
-  "name": "tailwind-typescript-starter",
+  "name": "amika-herbal-shop",
   "version": "1.0.0",
-  "description": "A user-friendly starter template to use for TypeScript and Tailwind frontend projects",
+  "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/theomaro/tailwind-typescript-starter.git"
+    "url": "git+https://github.com/theomaro/amika-herbal-shop.git"
   },
   "keywords": [
     "TypeScript",
@@ -21,9 +21,9 @@
   "author": "theomaro",
   "license": "SEE LICENSE IN LICENSE",
   "bugs": {
-    "url": "https://github.com/theomaro/tailwind-typescript-starter/issues"
+    "url": "https://github.com/theomaro/amika-herbal-shop/issues"
   },
-  "homepage": "https://github.com/theomaro/tailwind-typescript-starter#readme",
+  "homepage": "https://github.com/theomaro/amika-herbal-shop#readme",
   "dependencies": {
     "tailwindcss": "^3.4.1",
     "typescript": "^5.4.3"
